@@ -1,6 +1,3 @@
-# translator
-
-
  # README.md
 
 This project is a PyTorch implementation of a Machine Translation system, from German to English, using the Marian model provided by Hugging Face.
