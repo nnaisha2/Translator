@@ -41,7 +41,3 @@ At the end of the training, the model and tokenizer are saved.
 ## Output
 
 The script outputs the Cross Entropy loss for the training and validation sets at each epoch. It also computes and outputs the BLEU score after each epoch as an evaluation metric for the translations. The best performing model is then saved to the local disk.
-
-## Saving and Loading the Model
-
-The model and tokenizer are saved using their respective `save_pretrained()` methods and can be loaded again using the `from_pretrained()` methods provided by the `MarianMTModel` and `MarianTokenizer` classes.
